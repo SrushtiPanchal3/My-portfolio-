@@ -267,13 +267,18 @@ R<!DOCTYPE html>
 }
     @media(min-width: 768px) {
       .gallery-item:nth-child(5) {
-        overflow: visible;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .gallery-item:nth-child(5) img {
         object-fit: contain;
         height: auto;
-        width: 100%;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
        
       }
     }
